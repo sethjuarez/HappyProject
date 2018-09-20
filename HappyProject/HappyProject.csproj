@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.ML" Version="0.6.0-preview-26914-1" />
+    <PackageReference Include="Microsoft.ML" Version="0.6.0-preview-26919-7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="happy_test.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="happy_train.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
